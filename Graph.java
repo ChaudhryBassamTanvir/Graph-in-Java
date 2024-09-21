@@ -55,7 +55,7 @@ public class Graph {
     }
 
     public static void main(String[] args) {
-        int V = 6;
+        int V = 6; // vertices
         // 1----2
         // / ! !
         // 0 ! 3
