@@ -11,7 +11,7 @@ public class Graph {
 
         }
     }
-
+//creat
     public static void createGraph(ArrayList<Edge> graph[]) {
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<Edge>();
@@ -55,11 +55,11 @@ public class Graph {
 
     public static void main(String[] args) {
         int V = 6;
-    //       1----2
-    //     / !    !
-    //    0  !    3 
-    //     \ !    
-    //       4----5
+        // 1----2
+        // / ! !
+        // 0 ! 3
+        // \ !
+        // 4----5
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
         System.out.println();
